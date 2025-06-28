@@ -77,3 +77,40 @@ console.log(null>=0); //in that case they convert null->0
 console.log("2"===2);
 
 
+//javascript is dyanamic type language->means we not strict the variable for particular datatype
+let c="abhishek";
+console.log(c);
+
+c=232;
+console.log(c);
+
+//reference datatype->array/objects/function->whose reference can be share
+const myArray=["abhishek",25,78.78];
+
+const myObj={
+    name:"abhishek",
+    age:25,
+    marks:78.78
+}
+
+function myFunct(){
+    let name="abhishek";
+    console.log(name);
+
+}
+
+//call the function
+myFunct();
+
+//also we have an anonymous function
+let func=function(){
+    console.log("i am anonymous function");
+}
+func();
+
+//symbol datatype
+let symid1=Symbol("123");
+let symid2=Symbol("123");
+
+console.log(symid1==symid2);
+
