@@ -49,3 +49,5 @@ console.log(url.includes("google"))
 console.log(url.replace("google","facebook"))
 
 //split the string based on part of string/special character used in the string->it breakdown down and convert into array
+let str="ab-hi-sh-ek"
+console.log(str.split("-"));
